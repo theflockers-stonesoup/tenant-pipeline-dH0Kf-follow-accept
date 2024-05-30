@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: tenant-pipeline-component
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/hacbs-release-tests/dev-release-team-tenant/tenant-pipeline/tenant-pipeline-component@sha256:8250288cd5a2dc0d8c1d69ef1ac9e893f33fbd285bf27e0b8d99f1169bf2d7ec
         name: my-python
         ports:
         - containerPort: 8081
